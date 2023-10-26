@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-N19E6bCIV1oZDhI5O6yZb2kWg3vXjjPBbHv+i2ZvB2y+YvGKqj+6zW7Z0b4RYa3Lr4tZf7lqknX8+2s0nlWl5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Include jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ 
+
+  <style>
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .custom-bg-color {
+  background-color:  #754ffe; 
+}
+    .custom-icon-size {
+  width: 90px; 
+  height: 90px; 
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    
+}
+.h22{
+    text-align: left;
+}
+
+    .container2-col{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-primary:hover {
+  background-color: #3c1e82;
+}
+    .green-button {
+        margin-top: 2em;
+      background-color: #38a169;;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .clock-icon {
+
+  color: orange !important;
+  margin-right: 5px;
+
+
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+ 
+}
+  .container {
+    margin-top: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 400px;
+
+ 
+}
+.container4 {
+    margin-top: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 40em;
+
+ 
+}
+.container5 {
+  
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 400px;
+
+ 
+}
+.container8 {
+  
+  display: flex;
+align-items: center;
+justify-content: space-around;
+width: 100%;
+height: 22px;
+
+
+}
+
+.container1 {
+    margin-top: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 5em;
+
+ 
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* .container3 {
+    border: 1px solid red;
+    width: 70%;
+
+} */
+
+
+.container2 {
+    margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 60em;
+
+  background-color: #e2e8f0
+}
+    .btn-signin {
+      background-color: white;
+      border: none;
+      color: black;
+    }
+    
+    .btn-signup {
+        border: none;
+      background-color: #754ffe;
+      color: white;
+    }
+    .col-sm {
+      padding: 5em;
+   
+    }
+    .row1{
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .footer-click {
+  color: #000; 
+  transition: color 0.3s ease;  
+  text-decoration-line: none;
+}
+
+.footer-clickooter-click:hover {
+  color: purple;  
+}
+  </style>
+</head>
+
+<body>
+    
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://geeks-react.netlify.app/static/media/logo.e22c846d87ff5a1252df471397badc6d.svg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Browse
+                    </a>
+                   
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Landings
+                </a>
+               
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+               
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acounts
+                </a>
+               
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ...
+                  </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#"><i class="fas fa-user"></i> documenations</a>
+                  <a class="dropdown-item" href="#"><i class="fas fa-envelope"></i> Messages</a>
+                  <div class="dropdown-divider"></div>
+                 
+                </div>
+              </li>
+             
+              
+              <li>
+                <input class="form-control me-2" type="search" placeholder="Search Courses" aria-label="Search">
+              </li>
+
+            </ul>
+            <form class="d-flex mr-auto" role="search">
+                <a href="#" class="btn btn-light nav-button">
+                  <img src="https://geeks-react.netlify.app/static/media/sun.b75d9ae1f8dafcf0365aa12aeb1e0362.svg" alt="" class="button-image">
+                </a>
+                <a href="#" class="btn btn-primary mr-2 btn-signin">Sign In</a>
+                <a href="#" class="btn btn-secondary btn-signup">Sign Up</a>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <div class="d-flex justify-content-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+             
+                <h1 class="display-5 fw-bold mb-3  ls-sm ">Become a Vanilla JavaScript Developer </h1>
+              <p class="mb-4 lead text-secondary ">In this tutorial, we are going to learn about JavaScript (Vanilla JS) - for building incredible, powerful JavaScript applications.</p>
+             
+              <div class="icon-text">
+                <i class="fas fa-clock" style="color: orange;"></i>
+                <span>4 Hours</span>
+              </div>
+              <div class="icon-text">
+                <i class="fas fa-video" style="color: orange;"></i>
+                <span>12 Videos</span>
+              </div>
+              <div class="icon-text">
+                <i class="fas fa-users" style="color: orange;"></i>
+                <span>10,234+ Enrolled</span>
+              </div>
+              <button class="green-button">Watch Previous</button>
+
+             
+             
+              
+            </div>
+            
+            <div class="col-sm">
+         
+                <div class="card bg-white" style="width: 30rem; height: 35rem; box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);">
+                    <h1 class="mb-4 lh-1 fw-bold h2">Create Free Account</h1>
+                    <div class="mt-3 mb-5 g-2 row">
+                      <div class="col">
+                        <button class="btn" style="background-color: #f1f5f9;">
+                          <i class="fab fa-google mr-2 "style="color: red;"></i>
+                          Google
+                        </button>
+                      </div>
+                      <div class="col">
+                        <button class="btn" style="background-color: #f1f5f9;">
+                          <i class="fab fa-twitter mr-2"style="color: blue;"></i>
+                          Twitter
+                        </button>
+                      </div>
+                      <div class="col">
+                        <button class="btn" style="background-color: #f1f5f9;">
+                          <i class="fab fa-facebook mr-2 "style="color: #3b5998;"></i>
+                          Facebook
+                        </button>
+                      </div>
+                    </div>
+                    <div class="text-center my-3 position-relative">
+                        <hr class="w-90 mx-auto">
+                        <span class="bg-white px-2 fs-6 text-uppercase " style="position: absolute; top: 0rem; left: 50%; transform: translateX(-50%); background-color: #ffffff;">
+                          OR
+                        </span>
+                      </div>
+                      <div class="mb-3">
+                       
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                      </div>
+                      <div class="mb-3">
+                       
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                      </div>
+                      <button type="submit" class="btn btn-primary" style="background-color: #754ffe; color: white;">
+                        Start Courses for Free
+                      </button>
+                      <hr class="w-90 mx-auto"><hr>
+                      <p class="mb-0">
+                        By continuing you accept the 
+                        <a class="text-decoration-none fw-bold text-dark" href="#">Terms of Use</a>,
+                        <a class="text-decoration-none fw-bold text-dark" href="#">Privacy Policy</a>,
+                        and 
+                        <a class="text-decoration-none fw-bold text-dark" href="#">Data Policy</a>
+                      </p>
+                      
+        
+
+                    </form>
+                  </div>
+                   
+                  </div>
+                   
+                  </div>
+            </div>
+           
+            </div>
+          </div>
+        </div>
+       
+            <div class="container1 px-4 text-center">
+                <div class="row gx-5">
+                  <div class="col">
+                    <div class="p-3" style="white-space: nowrap;">
+                      <i class="fas fa-check-circle mr-2" style="color: #ffa500;"></i>
+                      Shareable Certificate
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3" style="white-space: nowrap;">
+                      <i class="fas fa-check-circle mr-2" style="color: #ffa500;"></i>
+                      Flexible Deadlines
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3" style="white-space: nowrap;">
+                      <i class="fas fa-check-circle mr-2" style="color: #ffa500;"></i>
+                      100% Online Courses
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3" style="white-space: nowrap;">
+                      <i class="fas fa-check-circle mr-2" style="color: #ffa500;"></i>
+                      Approx. 24 hours
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+                
+        <!-- </div> -->
+      </div>
+      <div class="container2 px-4 text-center">
+        <div class="center">
+            <div class="container2-col">
+        <span class="mb-3 d-block text-uppercase fw-semi-bold ls-xl" style=" color: #754ffe;">Course Description</span>
+        <h2 class="mb-2 display-4 fw-bold ">What will you learn?</h2>
+        <p class="text-secondary">Vanilla JS is a fast, lightweight, cross-platformframework for building incredible, powerful JavaScript applications.</p>
+       
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="container3">
+              <div class="col">
+                <div class="card mt-10 mb-4">
+                    <!-- <div class="mb-3 mb-md-0"><img src="https://geeks-react.netlify.app/static/media/feature-icon-1.d81a3fc1e4004c4b67e31168c1898c64.svg" alt="" class="custom-bg-color icon-shape icon-xxl rounded-circle custom-icon-size"></div> -->
+                <img src="https://geeks-react.netlify.app/static/media/feature-icon-1.d81a3fc1e4004c4b67e31168c1898c64.svg" alt="" class="custom-bg-color icon-shape icon-xxl rounded-circle custom-icon-size">
+                  <h2 class="fw-bold mb-1">Introduction to JavaScript<span class="ms-2 badge bg-warning">Free</span></h2>
+                  <p class="text-uppercase fs-6 fw-semi-bold mb-0"><span class="text-dark">Courses - 1</span> <span class="ms-3">6 Lessons</span> <span class="ms-3">1 HOUR 12 MIN</span></p>
+                  <div class="card-body p-8">
+                    <p class=" text-secondary mb-4 fs-4">In et tempus dui, in porta dolor. Donec molestie a purus ut interdum. Donec quis felis dignissim, luctus libero ornare</p>
+                   
+                  </div>
+                  <a role="button" tabindex="0" href="#" class="btn-link btn-link-primary" style="color:  #754ffe;; text-align: left; padding-left: 10px;"><u>View Chapter Details +</u></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card mt-10 mb-4">
+                    <!-- <div class="mb-3 mb-md-0"><img src="https://geeks-react.netlify.app/static/media/feature-icon-1.d81a3fc1e4004c4b67e31168c1898c64.svg" alt="" class="custom-bg-color icon-shape icon-xxl rounded-circle custom-icon-size"></div> -->
+                <img src="https://geeks-react.netlify.app/static/media/feature-icon-2.35b3b77394deb3cd7ebf78b8464fab62.svg" alt="" class="custom-bg-color icon-shape icon-xxl rounded-circle custom-icon-size">
+                  <h2 class="fw-bold mb-1">JavaScript Beginning<span class="ms-2 badge bg-warning">Free</span></h2>
+                  <p class="text-uppercase fs-6 fw-semi-bold mb-0"><span class="text-dark">Courses - 2</span> <span class="ms-3">4 LESSONS</span> <span class="ms-3">32 MIN</span></p>
+                  <div class="card-body p-8">
+                    <p class=" text-secondary mb-4 fs-4">Malesuada fames ac turpis egesta mpor tempus tincidunt. Aliquam congue lacus ac tellus consectetur malesuada.</p>
+                   
+                  </div>
+                  <a role="button" tabindex="0" href="#" class="btn-link btn-link-primary" style="color:  #754ffe;; text-align: left; padding-left: 10px;"><u>View Chapter Details +</u></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mt-10 mb-4">
+                    <!-- <div class="mb-3 mb-md-0"><img src="https://geeks-react.netlify.app/static/media/feature-icon-1.d81a3fc1e4004c4b67e31168c1898c64.svg" alt="" class="custom-bg-color icon-shape icon-xxl rounded-circle custom-icon-size"></div> -->
+                <img src="https://geeks-react.netlify.app/static/media/feature-icon-3.7cfb20a1964dfcd934da6b2267d68bc9.svg" alt="" class="custom-bg-color icon-shape icon-xxl rounded-circle custom-icon-size">
+                  <h2 class="fw-bold mb-1">Variables and Constants<span class="ms-2 badge bg-warning">Free</span></h2>
+                  <p class="text-uppercase fs-6 fw-semi-bold mb-0"><span class="text-dark">Courses - 3</span> <span class="ms-3">8 LESSONS</span> <span class="ms-3">10 MIN</span></p>
+                  <div class="card-body p-8">
+                    <p class=" text-secondary mb-4 fs-4">Aliquam pulvinar eros a dictur vitae diam imperdiet, ornare turpis vequet elit nec, imperdiet lectuna liquam qs.</p>
+                   
+                  </div>
+                  <a role="button" tabindex="0" href="#" class="btn-link btn-link-primary" style="color:  #754ffe;; text-align: left; padding-left: 10px;"><u>View Chapter Details +</u></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mt-10 mb-4">
+                    <!-- <div class="mb-3 mb-md-0"><img src="https://geeks-react.netlify.app/static/media/feature-icon-1.d81a3fc1e4004c4b67e31168c1898c64.svg" alt="" class="custom-bg-color icon-shape icon-xxl rounded-circle custom-icon-size"></div> -->
+                <img src="https://geeks-react.netlify.app/static/media/feature-icon-4.4e54d5c3aeac9d9d151971629ba18abf.svg" alt="" class="custom-bg-color icon-shape icon-xxl rounded-circle custom-icon-size">
+                  <h2 class="fw-bold mb-1">Types and Operators<span class="ms-2 badge bg-warning">Free</span></h2>
+                  <p class="text-uppercase fs-6 fw-semi-bold mb-0"><span class="text-dark">Courses - 4</span> <span class="ms-3">10 LESSONS</span> <span class="ms-3">30 MIN</span></p>
+                  <div class="card-body p-8">
+                    <p class=" text-secondary mb-4 fs-4">In lobortis quam eu augue spendisse imperdiet nec orci ipsum, tempus pharetra posuere imperdiet, lacinia a nisl..</p>
+                   
+                  </div>
+                  <a role="button" tabindex="0" href="#" class="btn-link btn-link-primary" style="color:  #754ffe;; text-align: left; padding-left: 10px;"><u>View Chapter Details +</u></a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="container4 px-4 text-center">
+        <div class="row">
+          <div class="col-sm-8 mb-4">
+            <p class="text-start text-uppercase custom-color" style="color: #754ffe;">
+                YOUR INSTRUCTOR
+              </p>
+              <h2 class="mb-2 display-4 fw-bold mb-3 text-start">Hi, I’m <span style="color:#754ffe;">James Davies</span>,<br>I will be taking you through lessons.</h2>
+              <p class="fs-3 pe-6  text-secondary text-start">Create beautiful website with this Geeks UI template. Get started building a site today.</p>
+              <hr>
+            
+                <div class="row">
+                  <div class="col">
+                    <h2 class="h1 fw-bold mb-0 ls-xs">45</h2>
+                    <p class="mb-0">Lessons</p>
+                    
+                  </div>
+                  <div class="col">
+                    <h2 class="h1 fw-bold mb-0 ls-xs">10,500+</h2>
+                    <p class="mb-0">Students</p>
+                  </div>
+                  <div class="col">
+                    <h2 class="h1 fw-bold mb-0 ls-xs">12+</h2>
+                    <p class="mb-0">Learning Hours</p>
+                  </div>
+                </div>
+              </div>
+        
+          </div>
+          <div class="col-sm mb-4">
+            <div class="mb-6 mb-lg-0 text-center  col-xl-5 col-lg-5 col-md-12 col-sm-12 offset-xl-1 order-lg-2"><img src="https://geeks-react.netlify.app/static/media/instructor-img.1ed9cc40ee4734876e12.png" alt=""></div>
+          
+            
+          
+          </div>
+        </div>
+      </div>
+      <p class="text-center text-uppercase custom-color" style="color: #754ffe;">  TRUSTED BY TOP-TIER PRODUCT COMPANIES</p>
+
+      <div class="container5">
+       
+        <div class="row ">
+            
+            <div class="col">
+             <img src="	https://geeks-react.netlify.app/static/media/gray-logo-stripe.6b556d06bcc209f1c051bbdb399131f0.svg" alt="">
+              
+              
+            </div>
+            <div class="col">
+             <img src="	https://geeks-react.netlify.app/static/media/gray-logo-airbnb.5908aac3e8062333869d580f4b2f3d59.svg" alt="">
+            
+            </div>
+            <div class="col">
+         <img src="https://geeks-react.netlify.app/static/media/gray-logo-discord.2e0bae69d24feccf4efdd3f80746031b.svg" alt="">
+            
+            </div>
+            <div class="col">
+               <img src="https://geeks-react.netlify.app/static/media/gray-logo-intercom.870602b99ded665ecf0c2d5b2ffeb8c4.svg" alt="">
+              
+              </div>
+              <div class="col">
+                <img src="https://geeks-react.netlify.app/static/media/gray-logo-pinterest.928eaa29223a809cc5554847139d26a9.svg" alt="">
+               
+               </div>
+               <div class="col">
+                <img src="https://geeks-react.netlify.app/static/media/gray-logo-netflix.a47db6eaf2de7327844f27eb230da39c.svg" alt="">
+               
+               </div>
+          </div>
+        
+      </div>
+      <footer>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+            <img src="	https://geeks-react.netlify.app/static/media/logo.e22c846d87ff5a1252df471397badc6d.svg" alt="" style="display: flex; justify-content: left ;">
+            <p class="text-secondary text-start">Geek is feature-rich components and beautifully Bootstrap UIKit for developers, built with bootstrap responsive framework.</p>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square social-icon" style="color: gray;"></i>
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter social-icon" style="color: gray;"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fab fa-instagram social-icon" style="color: gray;"></i>
+              </a>
+              </div>
+              <div class="col">
+                <h2 class="h22">Company</h2>
+                <Ul>
+                    <li><a class="nav-link" href="*">About</a></li>
+                    <li><a class="nav-link" href="*">Pricing</a></li>
+                    <li><a class="nav-link" href="*">Blog</a></li>
+                    <li><a class="nav-link" href="*">Careers</a></li>
+                    <li><a class="nav-link" href="*">About</a></li>
+                    <li><a class="nav-link" href="*">Contacts</a></li>
+                </Ul>
+               
+              </div>
+              <div class="col">
+                <h2 class="h22">Support</h2>
+                <Ul>
+                    <li><a class="nav-link" href="*">Help%Support</a></li>
+                    <li><a class="nav-link" href="*">Become instrucor</a></li>
+                    <li><a class="nav-link" href="*">Blog</a></li>
+                    <li><a class="nav-link" href="*">Get the app</a></li>
+                    <li><a class="nav-link" href="*">About</a></li>
+                    <li><a class="nav-link" href="*">tutoirial</a></li>
+                </Ul>
+              </div>
+              <div class="col">
+                <h2 class="h22">Get in touch</h2>
+                <Ul>
+                    <li><a class="nav-link" href="*">339 McDermott Points Hettingerhaven, NV 15283t</a></li>
+                    <li><a class="nav-link" href="*">Email: support@geeksui.com</a></li>
+                    <li><a class="nav-link" href="*">Blog</a></li>
+                    <li><a class="nav-link" href="*">Get the app</a></li>
+                    <li><a class="nav-link" href="*">About</a></li>
+                    <li><a class="nav-link" href="*"></a>Phone: (000) 123 456 789</li>
+                   
+                </Ul>
+                <div class="flex-row">
+                <img src="https://geeks-react.netlify.app/static/media/appstore.b464860c93223b3fc15fc7d026bcdca0.svg" alt="" class="img-fluid">
+                <img src="	https://geeks-react.netlify.app/static/media/playstore.f23c3dcbde32e767203274d4b1749cc7.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+      </footer>
+      <hr>
+      <br>
+      <br>
+      <!-- <div class="container8">
+        <div class="row">
+           
+           2023 Geeks-UI, Inc. All Rights Reserved
+          </div>
+          <div class="col">
+            <a href="#" target="_blank" class="footer-click">
+          </div>
+          <div class="col">
+            2023 Geeks-UI, Inc. All Rights Reserved
+          </div>
+        </div> -->
+      </div>
+      <div class="container8 text-center">
+        <div class="row">
+          <div class="col text-secondary">
+            2023 Geeks-UI, Inc. All Rights Reserved
+          </div>
+          Privacy Policy
+          </div>
+          <div class="col text-secondary">
+            Cookie Notice
+          </div>
+          <div class="col text-secondary">
+            Do Not Sell My Personal Information
+          </div>
+          <div class="col text-secondary">
+           Terms of use
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/bootstrap-icons@1.6.3"></script>
+</body>
+</html>
